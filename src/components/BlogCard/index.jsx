@@ -11,9 +11,9 @@ const BlogCard = ({ data }) => {
 
     return (
         <div className='card-container' onClick={navigateToBlogDetailsPage}>
-            {/* <div>
-                <img className="card-images" src={data.image}/>
-            </div> */}
+            <div>
+                <img className="card-images" src={data.image} alt={data.title}/>
+            </div>
             <div>{data.title}</div>
         </div>
     )

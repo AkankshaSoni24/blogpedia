@@ -8,9 +8,9 @@ import {
 const Navbar = () => {
     return (
         <div className="navbar">
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
-            <Link to="/contact">Contact</Link>
+            <Link to="/blogpedia/">Home</Link>
+            <Link to="/blogpedia/about">About</Link>
+            <Link to="/blogpedia/contact">Contact</Link>
         </div>
     )
 }

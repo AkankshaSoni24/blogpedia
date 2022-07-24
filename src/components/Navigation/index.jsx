@@ -12,10 +12,10 @@ import {
 const Navigation = () => {
     return (
         <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/blog" element={<BlogDetails />} />
+            <Route path="/blogpedia/" element={<Home />} />
+            <Route path="/blogpedia/about" element={<About />} />
+            <Route path="/blogpedia/contact" element={<Contact />} />
+            <Route path="/blogpedia/blog" element={<BlogDetails />} />
         </Routes>
     )
 }
