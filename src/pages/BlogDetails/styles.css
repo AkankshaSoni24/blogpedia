@@ -1,0 +1,17 @@
+.blog-details{
+    border: 1px white solid;
+    background: linear-gradient(rgb(0, 0, 0), grey);
+    text-align: center;
+    color: white;
+    padding: 30px;
+    padding-bottom: 80px;
+}
+.blog-title{
+    font-style: bold;
+    font-size: 40px;
+    text-decoration: underline;
+}
+.blog-image{
+    border: 2px white solid;
+    padding: 0px 0px;
+}

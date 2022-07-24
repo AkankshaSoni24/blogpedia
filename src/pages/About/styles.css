@@ -1,0 +1,12 @@
+.about-heading{
+    text-align: center;
+}
+.about-image{
+    height: 280px;
+    margin-left: 20%;
+    float: left;
+}
+.about-main{
+    display: flexbox;
+    justify-content: space-between;
+}

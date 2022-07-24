@@ -1,0 +1,10 @@
+.carousel-body{
+    background-color: black;
+    color: white;
+}
+.carousel-quote{
+    text-align: center;
+}
+.carousel-author{
+    text-align: right;
+}
