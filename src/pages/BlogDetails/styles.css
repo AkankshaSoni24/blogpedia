@@ -14,4 +14,5 @@
 .blog-image{
     border: 2px white solid;
     padding: 0px 0px;
+    max-width: 100%;
 }
