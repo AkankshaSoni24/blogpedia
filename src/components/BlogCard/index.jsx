@@ -6,7 +6,7 @@ const BlogCard = ({ data }) => {
     const navigate = useNavigate();
 
     function navigateToBlogDetailsPage() {
-        navigate('/blog', { state: data })
+        navigate('/blogpedia/blog', { state: data })
     }
 
     return (
