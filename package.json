@@ -1,8 +1,8 @@
 {
-  "name": "my-react-app",
+  "name": "blogpedia",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://AkankshaSoni24.github.io",
+  "homepage": "https://akankshasoni024.github.io/blogpedia",
   "dependencies": {
     "-": "^0.0.1",
     "@testing-library/jest-dom": "^5.16.4",
