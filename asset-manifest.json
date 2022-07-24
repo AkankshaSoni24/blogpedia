@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/blogpedia/static/css/main.76a741b5.css",
-    "main.js": "/blogpedia/static/js/main.0b5ac1d5.js",
+    "main.js": "/blogpedia/static/js/main.a96cc3ca.js",
     "static/js/787.b8c49312.chunk.js": "/blogpedia/static/js/787.b8c49312.chunk.js",
     "static/media/image1.png": "/blogpedia/static/media/image1.ccdcbfddf1f4f8b121e7.png",
     "index.html": "/blogpedia/index.html",
     "main.76a741b5.css.map": "/blogpedia/static/css/main.76a741b5.css.map",
-    "main.0b5ac1d5.js.map": "/blogpedia/static/js/main.0b5ac1d5.js.map",
+    "main.a96cc3ca.js.map": "/blogpedia/static/js/main.a96cc3ca.js.map",
     "787.b8c49312.chunk.js.map": "/blogpedia/static/js/787.b8c49312.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.76a741b5.css",
-    "static/js/main.0b5ac1d5.js"
+    "static/js/main.a96cc3ca.js"
   ]
 }
