@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/blogpedia/static/css/main.0fad51a3.css",
-    "main.js": "/blogpedia/static/js/main.9ed33353.js",
+    "main.css": "/blogpedia/static/css/main.e87b564e.css",
+    "main.js": "/blogpedia/static/js/main.2fee9480.js",
     "static/js/787.b8c49312.chunk.js": "/blogpedia/static/js/787.b8c49312.chunk.js",
     "static/media/image1.png": "/blogpedia/static/media/image1.ccdcbfddf1f4f8b121e7.png",
     "static/media/facebookicon.png": "/blogpedia/static/media/facebookicon.da195604fb303562bcc7.png",
@@ -11,13 +11,14 @@
     "static/media/locationicon.png": "/blogpedia/static/media/locationicon.1a264bee14f4b9eabc2f.png",
     "static/media/gmailicon.png": "/blogpedia/static/media/gmailicon.e170b0658befeeeee500.png",
     "static/media/twittericon.png": "/blogpedia/static/media/twittericon.adad217c031eb7321564.png",
+    "static/media/background.jpg": "/blogpedia/static/media/background.613162d6b2a6d4034e17.jpg",
     "index.html": "/blogpedia/index.html",
-    "main.0fad51a3.css.map": "/blogpedia/static/css/main.0fad51a3.css.map",
-    "main.9ed33353.js.map": "/blogpedia/static/js/main.9ed33353.js.map",
+    "main.e87b564e.css.map": "/blogpedia/static/css/main.e87b564e.css.map",
+    "main.2fee9480.js.map": "/blogpedia/static/js/main.2fee9480.js.map",
     "787.b8c49312.chunk.js.map": "/blogpedia/static/js/787.b8c49312.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0fad51a3.css",
-    "static/js/main.9ed33353.js"
+    "static/css/main.e87b564e.css",
+    "static/js/main.2fee9480.js"
   ]
 }
