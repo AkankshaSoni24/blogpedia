@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/blogpedia/static/css/main.fd33ff2e.css",
+    "main.css": "/blogpedia/static/css/main.9e3727be.css",
     "main.js": "/blogpedia/static/js/main.9a67a1d2.js",
     "static/js/787.b8c49312.chunk.js": "/blogpedia/static/js/787.b8c49312.chunk.js",
     "static/media/image1.png": "/blogpedia/static/media/image1.ccdcbfddf1f4f8b121e7.png",
@@ -13,12 +13,12 @@
     "static/media/twittericon.png": "/blogpedia/static/media/twittericon.adad217c031eb7321564.png",
     "static/media/background.jpg": "/blogpedia/static/media/background.613162d6b2a6d4034e17.jpg",
     "index.html": "/blogpedia/index.html",
-    "main.fd33ff2e.css.map": "/blogpedia/static/css/main.fd33ff2e.css.map",
+    "main.9e3727be.css.map": "/blogpedia/static/css/main.9e3727be.css.map",
     "main.9a67a1d2.js.map": "/blogpedia/static/js/main.9a67a1d2.js.map",
     "787.b8c49312.chunk.js.map": "/blogpedia/static/js/787.b8c49312.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd33ff2e.css",
+    "static/css/main.9e3727be.css",
     "static/js/main.9a67a1d2.js"
   ]
 }
