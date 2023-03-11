@@ -1,12 +1,12 @@
 const quotes=[
-    {qoute:"loreum ispum",
-    author:"unknown1"},   
-    {qoute:"loreum ispum2",
-    author:"unknown2"},
-    {qoute:"loreum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quam velit, facilisis id quam vel.ispum3",
-    author:"unknown3"},
-    {qoute:"loreum ispum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quam velit, facilisis id quam vel, malesuada vulputate orci. Sed vitae venenatis risus, id egestas dui. Mauris auctor leo a ligula ",
-    author:"unknown"},
+    "IF YOU WANT TO SHINE LIKE THE SUN THAN FIRST YOU NEED TO BURN LIKE THE SUN",
+
+    "YOU DO NOT ACTAULLY DREAM WHILE SLEEPING, THE DREAMS DO NOT LET YOU SLEEP",
+
+   "WORK HARD RIGHT NOW TO GET BETTER TOMMOROW ",
+    
+   "IF YOU FIND THAT YOUR LIFE IS DARK YOU JUST NEED TO TURN ON THE LAMP!",
+   
 ]
 
 export default quotes

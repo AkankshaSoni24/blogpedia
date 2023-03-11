@@ -1,9 +1,23 @@
-.card-container{
+.card-container {
     margin: 10px 10px;
-    border: 1px solid black;
+    border: 0px solid black;
     padding: 10px;
     border-radius: 5px;
 }
-.card-images{
+
+.card-images {
     height: 210px;
+    width: 200px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-desc {
+    transition: transform .1s;
+}
+
+.card-desc:hover {
+    transform: scale(1.1);
 }

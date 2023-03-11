@@ -1,10 +1,13 @@
-.carousel-body{
-    background-color: black;
-    color: white;
-}
+
 .carousel-quote{
     text-align: center;
+    animation:mymove 2s infinite;
+    padding:3rem 2rem;
+
 }
-.carousel-author{
-    text-align: right;
+.carousel-container{
+    font-size:xx-large;
+    font-weight: bold;
+    text-align: center;
+    animation:mymove 2s infinite;
 }

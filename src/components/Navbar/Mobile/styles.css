@@ -1,0 +1,46 @@
+.menu-icon{
+    float: right;
+}
+
+.menu-icon-initial{
+    display: block;
+    float: right;
+}
+
+.menu-links{
+    float: right;
+}
+.menu-btn{
+    text-decoration: none;
+    color: white; 
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+a.menu-btn{
+    display: block;
+    background-color: rgba(0, 0, 0, 0);
+}
+a.menu-btn:hover{
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+
+}
+
+.show{
+ display: block;   
+}
+
+.hidden{
+    display:none;
+}
+.show-icon{
+    display: block; 
+
+}
+.hidden-icon{
+    display:none;
+}
