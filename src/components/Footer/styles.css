@@ -1,0 +1,47 @@
+.footer-container{
+    background-color: black;
+    align-items: center;
+}
+.main-footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 2% 10%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+}
+
+a.footer-link {
+    text-decoration: none;
+    color: white;
+}
+
+a.footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer-heading {
+    font-weight: bold;
+    font-size: 40px;
+}
+.followus-icon {
+    width: 25px;
+    height: 30px;
+    padding: 10px 10px 0px 10px;
+}
+.footer-follow-us{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer-copyright{
+    color: white;
+    text-align: center;
+}

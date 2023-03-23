@@ -2,11 +2,14 @@
     text-align: center;
 }
 .about-image{
-    height: 280px;
-    margin-left: 20%;
-    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;  
 }
-.about-main{
-    display: flexbox;
-    justify-content: space-between;
+.about-data{
+    font-weight: 100;
+    margin: 2% 10%;
+    padding: 0px 10px;
+    text-align: center;
 }
