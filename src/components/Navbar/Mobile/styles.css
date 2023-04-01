@@ -1,46 +1,30 @@
-.menu-icon{
-    float: right;
+.menu-container {
 }
 
-.menu-icon-initial{
-    display: block;
-    float: right;
+.menu-links {
+  display: flex;
+  flex-direction: column;
 }
 
-.menu-links{
-    float: right;
+.menu-btn {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
 }
-.menu-btn{
-    text-decoration: none;
-    color: white; 
-    padding: 0px 15px;
-    display: flex;
-    flex-direction: column;
-    
+a.menu-btn {
+  color: white;
+  text-decoration: none;
 }
-
-a.menu-btn{
-    display: block;
-    background-color: rgba(0, 0, 0, 0);
-}
-a.menu-btn:hover{
-    background-color: white;
-    color: black;
-    padding: 10px 15px;
-
+.show {
+  display: block;
 }
 
-.show{
- display: block;   
+.hidden {
+  display: none;
 }
 
-.hidden{
-    display:none;
-}
-.show-icon{
-    display: block; 
-
-}
-.hidden-icon{
-    display:none;
+hr {
+  width: 10%;
 }
