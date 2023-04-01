@@ -1,21 +1,23 @@
-.weather-container{
-    text-align: center;
-     
- }
- .weather-heading{
-     font-weight: bold;
-     padding :3%;
- }
- 
- .weather-input-container{
-     margin: 0 0 3% 0;
- }
- .weather-search-button{
-     padding: 5px;
- }
- 
- .weather-output{
-     font-style: bold;
-     font-size: 20px;
-     padding: 1%;
- }
+.weather-container {
+  background-color: #050d22;
+  color: white;
+  height: calc(100vh - 100px);
+  padding:3rem;
+}
+.weather-heading {
+  font-weight: bold;
+  padding: 3%;
+}
+
+.weather-input-container {
+  margin: 0 0 3% 0;
+}
+.weather-search-button {
+  padding: 5px;
+}
+
+.weather-output {
+  font-style: bold;
+  font-size: 20px;
+  padding: 1%;
+}

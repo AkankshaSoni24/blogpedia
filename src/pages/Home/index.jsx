@@ -11,7 +11,7 @@ const Home = () => {
         <div className="home-container">
         
             <div className="home-header-container">
-            <Header title="BLOGPEDIA"/>
+            {/* <Header title="BLOGPEDIA"/> */}
             <div className="home-banner">
                 <h1>ALL YOU NEED IS A LITTLE MOTIVATION TO GET STARTED!!!</h1>
             </div>  

@@ -33,9 +33,8 @@ const Weather = () => {
     }
     return (
         <div className="weather-container">
-            <Header title="BLOGPEDIA" />
             <div className="weather-heading">
-                <h2> Hi! Please Enter City to check weather...</h2>
+                {/* <h2> Hi! Please Enter City to check weather...</h2> */}
             </div>
             <div className="weather-input-container">
                 <input onChange={setTheCity}

@@ -8,7 +8,7 @@ import Header from "../../components/Header";
 const Contact = () => {
   return (
     <div className="contact-container-main">
-      <Header title="BLOGPEDIA" />
+      {/* <Header title="BLOGPEDIA" /> */}
       <div className="contact-container">
         <div className="contact-details">
           <div className="contact-heading">
