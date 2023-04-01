@@ -1,67 +1,25 @@
-@media only screen and (min-width:200px) and (max-width:600px) {
-    .nav-btn {
-        display: none; 
-
-    }
-    .main-logo-mob{
-       
-        text-align: center;
-        text-decoration: none;
-        font-weight: bold;
-    }
+.nav-container {
+  display: flex;
+  height: 100%;
 }
 
-@media only screen and (min-width:600px) {
-    .menu-icon {
-        display: none;
-    }
-    a.main-logo-mob {
-        display:none;
-    }
-
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.menu-container{
-
-    display: flex;
-    flex-direction: row;
-}
-.main-logo-mob{
-    color: white;
-    align-self: center;}
-
-
-.navbar {
-    text-decoration: none;
-
-}
-
 a.nav-btn {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    padding: 0px 30px;
-    font-size: 20px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 0px 30px;
+  font-size: 20px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 a.nav-btn:hover {
-    background-color: white;
-    color: black;
-   
-}
-
-.menu-btn{
-   align-items: flex-start  ;
-    display: block;
-    background-color: rgb(255, 255, 255);
-    flex-direction: row;
-    width: 100%;
-   
-
-}
-.show {
-    display: none;
-}
-
-.hidden {
-    display: none;
+  background-color: white;
+  color: black;
 }
