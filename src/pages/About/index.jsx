@@ -6,7 +6,6 @@ import Header from "../../components/Header";
 const About = () => {
     return (
         <div className="aboutus-container">
-        <Header title="BLOGPEDIA"/>
             <div className="about-heading "><h1>ABOUT US</h1></div>
             <div className="about-desc">
                 <div className="about-img-cont about-main">
