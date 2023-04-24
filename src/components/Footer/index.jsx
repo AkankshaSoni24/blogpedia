@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="footer-details ">
           <div className="footer-logo footer-heading">BLOGPEDIA</div>
           <div className="footer-logo-details">
-            Gulab BAri ,Ajmer, Rajasthan
+            Gulab Bari ,Ajmer, Rajasthan
           </div>
         </div>
         <div className="footer-company">
