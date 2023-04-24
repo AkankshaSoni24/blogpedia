@@ -1,13 +1,18 @@
-
-.carousel-quote{
-    text-align: center;
-    animation:mymove 2s infinite;
-    padding:3rem 2rem;
-
+.carousel-quote {
+  text-align: center;
+  animation: all 2s infinite;
+  padding: 5rem;
+  margin: 2rem;
 }
-.carousel-container{
-    font-size:xx-large;
-    font-weight: bold;
-    text-align: center;
-    animation:mymove 2s infinite;
+@media only screen and (min-width: 0px) and (max-width: 1000px) {
+  .carousel-quote {
+    padding: 1rem;
+    font-size: 30px;
+  }
+}
+.carousel-container {
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+  animation: all 2s infinite;
 }
