@@ -1,74 +1,83 @@
 .contact-container {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10% 11%;
-    background: linear-gradient(180deg, #fffffe 60%, #969692 60%);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10% 11%;
+  background: linear-gradient(180deg, #fffffe 60%, #969692 60%);
 }
 
 .contact-details {
-    padding-right: 6%;
-    padding-bottom: inherit;
+  padding-right: 6%;
+  padding-bottom: inherit;
 }
 
 .contact-heading {
-    color: red;
+  color: red;
 }
 
 .contact-phoneno-img {
-    width: 25px;
-    height: 30px;
-    padding: 10px 10px 0px 10px;
+  width: 25px;
+  height: 30px;
+  padding: 10px 10px 0px 10px;
 }
 
 .contact-email-img {
-    width: 25px;
-    height: 30px;
-    padding: 10px 10px 0px 10px;
-
+  width: 25px;
+  height: 30px;
+  padding: 10px 10px 0px 10px;
 }
 
 .contact-location-img {
-    width: 25px;
-    height: 30px;
-    padding: 10px 10px 0px 10px;
+  width: 25px;
+  height: 30px;
+  padding: 10px 10px 0px 10px;
 }
 
 .contact-form {
-    background-color: #fff6ea;
-    height: 350px;
-    width: 300px;
-    display: flex;
-    border: 2px solid black;
-    border-radius: 2%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1%;
-
+  background-color: #fff6ea;
+  height: 350px;
+  width: 300px;
+  display: flex;
+  border: 2px solid black;
+  border-radius: 2%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1%;
 }
 
 .contact-form-heading {
-    font-weight: bold;
-
+  font-weight: bold;
 }
 
 input {
-    width: 230px;
-    height: 25px;
-    border-color: black;
+  width: 230px;
+  height: 25px;
+  margin-bottom: 1rem;
+  /* border-color: black; */
 }
 
 input.contact-form-message-input {
-    height: 70px;
+  height: 70px;
 }
 
+textarea {
+  width: 232px;
+  height: 70px;
+  resize: none;
+
+  /* border-color: 2px solid black; */
+}
+.contact-form-send-input {
+  margin: auto;
+}
 input.contact-form-send-input {
-    background-color: rgb(0, 0, 0);
-    color: white;
-    margin-bottom: 10%;
-    font-weight: 600;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  margin-bottom: 10%;
+  width: 100%;
+  font-weight: 600;
 }
 
 input.contact-form-send-input:hover {
-    background-color: gray;
+  background-color: gray;
 }

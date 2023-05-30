@@ -1,9 +1,9 @@
 import React from "react";
-import blogs from "../../data/blogs";
+import blogs from "../../static/data/blogs";
 import BlogCard from "../../components/BlogCard";
 import "./styles.css";
 import QuotesCarousel from "../../components/QuotesCarousel";
-import quotes from "../../data/quotes";
+import quotes from "../../static/data/quotes";
 import background from "../../static/images/background.jpg";
 const Home = () => {
   return (

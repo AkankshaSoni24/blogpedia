@@ -1,8 +1,8 @@
 import React from "react";
 import "./styles.css";
-import phoneIcon from "../../images/phoneIcon.png";
-import mailIcon from "../../images/mailIcon.png";
-import locationIcon from "../../images/locationIcon.png";
+import phoneIcon from "../../static/images/phoneIcon.png";
+import mailIcon from "../../static/images/mailIcon.png";
+import locationIcon from "../../static/images/locationIcon.png";
 import Header from "../../components/Header";
 
 const Contact = () => {
@@ -40,20 +40,30 @@ const Contact = () => {
           <div className="contact-form-heading">
             <h1>SAY SOMETHING</h1>
           </div>
-          <form action="send.php" method="post">
+          <form
+            action="https://formsubmit.co/aakankshasoni024@gmail.com"
+            method="post"
+          >
             <div className="contact-form-nameinput">
               <input type="text" name="Your Name" placeholder="Your Name" />
             </div>
             <div className="contact-form-email-input">
-              <input type="email" name="Your email" placeholder="Your email" />
+              <input
+                type="email"
+                name="Your email"
+                placeholder="Your email"
+                required
+              />
             </div>
             <div className="contact-form-message-input">
-              <input
+              <textarea
                 className="contact-form-message-input"
                 type="text"
                 name="Your Message"
                 placeholder="YourMessage"
-              />
+                cols="40"
+                rows="5"
+              ></textarea>
             </div>
             <div className="contact-form-send-input ">
               <input
@@ -63,6 +73,13 @@ const Contact = () => {
                 value="Send"
               />
             </div>
+            <input
+              type="hidden"
+              name="_next"
+              value="https://akankshasoni024.github.io/blogpedia/contact"
+            />
+
+            <input type="hidden" name="_template" value="table" />
           </form>
         </div>
       </div>

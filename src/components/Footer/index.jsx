@@ -1,11 +1,11 @@
 import React from "react";
 import "./styles.css";
 import { Link } from "react-router-dom";
-import mailIcon from "../../images/mailIcon.png";
-import instagramIcon from "../../images/instagramIcon.png";
-import linkedinIcon from "../../images/linkedinIcon.png";
-import facebookIcon from "../../images/facebookIcon.png";
-import githubIcon from "../../images/githubIcon.png";
+import mailIcon from "../../static/images/mailIcon.png";
+import instagramIcon from "../../static/images/instagramIcon.png";
+import linkedinIcon from "../../static/images/linkedinIcon.png";
+import facebookIcon from "../../static/images/facebookIcon.png";
+import githubIcon from "../../static/images/githubIcon.png";
 
 const Footer = () => {
   return (
