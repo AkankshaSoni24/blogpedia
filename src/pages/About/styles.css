@@ -1,15 +1,102 @@
-.about-heading{
-    text-align: center;
+.topImage img {
+  width: 100%;
+  z-index: -10;
+  height: 100vh;
+  position: relative;
 }
-.about-image{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;  
+.topSection {
+  background: rgb(70, 70, 77);
+  top: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(210, 210, 210, 1) 0%,
+    rgba(245, 240, 240, 1) 30%,
+    rgba(253, 251, 251, 0.8519782913165266) 54%,
+    rgba(255, 255, 255, 0.7875525210084033) 62%,
+    rgba(255, 255, 255, 0) 80%
+  );
+
+  z-index: 210000;
 }
-.about-data{
-    font-weight: 100;
-    margin: 2% 10%;
-    padding: 0px 10px;
-    text-align: center;
+.aboutusContainer {
+  min-height: 100vh;
+}
+.backgroundImageContainer {
+  width: 100%;
+}
+
+.backgroundImageContainer img {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  z-index: -100;
+  position: fixed;
+}
+/* .topTextWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+} */
+.aboutHeading {
+  z-index: 2;
+  position: absolute;
+  top: 70px;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 2rem;
+}
+
+.aboutContent {
+  z-index: 2;
+  position: absolute;
+  font-size: 25px;
+  top: 200px;
+  max-width: 60%;
+  padding: 2rem;
+}
+
+.aboutAuthorSection {
+  background-color: white;
+  max-width: 70%;
+  margin: 5rem auto;
+  padding: 2rem;
+  box-shadow: 4px 8px 40px 8px rgb(93, 94, 96);
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1000px) {
+  .aboutHeading {
+    z-index: 2;
+    position: absolute;
+    top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 2rem;
+  }
+  .aboutAuthorSection {
+    background-color: white;
+    max-width: 80%;
+    margin: 5rem auto;
+    padding: 2rem;
+    box-shadow: 4px 8px 40px 8px rgb(93, 94, 96);
+  }
+
+  .aboutContent {
+    z-index: 2;
+    position: absolute;
+    font-size: 25px;
+    top: 200px;
+    max-width: 100%;
+    padding: 2rem;
+  }
+  .topSection {
+    background: rgb(70, 70, 77);
+    top: 0;
+    background: linear-gradient(
+      90deg,
+      rgba(210, 210, 210, 1) 0%,
+      rgba(245, 240, 240, 1) 30%,
+      rgba(253, 251, 251, 0.8519782913165266) 54%,
+      rgba(255, 255, 255, 0.7875525210084033) 82%
+    );
+  }
 }

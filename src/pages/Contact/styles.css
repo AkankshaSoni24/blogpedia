@@ -1,6 +1,7 @@
 .contact-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   padding: 10% 11%;
   background: linear-gradient(180deg, #fffffe 60%, #969692 60%);
 }
@@ -17,19 +18,20 @@
 .contact-phoneno-img {
   width: 25px;
   height: 30px;
-  padding: 10px 10px 0px 10px;
+  margin: 4px;
+  padding: 2px;
 }
 
 .contact-email-img {
   width: 25px;
   height: 30px;
-  padding: 10px 10px 0px 10px;
 }
 
 .contact-location-img {
   width: 25px;
   height: 30px;
-  padding: 10px 10px 0px 10px;
+  margin: 4px;
+  padding: 2px;
 }
 
 .contact-form {
@@ -52,7 +54,7 @@
 input {
   width: 230px;
   height: 25px;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
   /* border-color: black; */
 }
 
@@ -80,4 +82,10 @@ input.contact-form-send-input {
 
 input.contact-form-send-input:hover {
   background-color: gray;
+}
+
+.contact_flexbox_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }

@@ -1,32 +1,41 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles.css";
-import phoneIcon from "../../static/images/phoneIcon.png";
-import mailIcon from "../../static/images/mailIcon.png";
+
 import locationIcon from "../../static/images/locationIcon.png";
-import Header from "../../components/Header";
+import darkMailIcon from "../../static/images/svg/darkMailIcon.svg";
+import phone from "../../static/images/svg/phone.svg";
 
 const Contact = () => {
+  const [success, setSuccess] = useState(false);
+  function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+      alert("Name must be filled out");
+      return false;
+    }
+  }
   return (
     <div className="contact-container-main">
-      {/* <Header title="BLOGPEDIA" /> */}
       <div className="contact-container">
         <div className="contact-details">
           <div className="contact-heading">
             <h1>GET IN TOUCH</h1>
           </div>
-          <div className="contact-phoneno">
-            <img
-              className="contact-phoneno-img"
-              src={phoneIcon}
-              alt="Phone no."
-            />
+          <div className="contact-phoneno contact_flexbox_wrapper">
+            <img className="contact-phoneno-img" src={phone} alt="Phone no." />
+            <phone />
             +91 8955370140
           </div>
-          <div className="contact-email">
-            <img className="contact-email-img" src={mailIcon} alt="Gmail:" />
+          <div className="contact-email contact_flexbox_wrapper">
+            <img
+              className="contact-phoneno-img"
+              src={darkMailIcon}
+              alt="Phone no."
+            />
+            <darkMailIcon />
             aakankshasoni024@gmail.com
           </div>
-          <div className="contact-location">
+          <div className="contact-location contact_flexbox_wrapper">
             <img
               className="contact-location-img"
               src={locationIcon}
@@ -35,7 +44,7 @@ const Contact = () => {
             Gulab Bari , Ajmer, Rajasthan{" "}
           </div>
         </div>
-
+        {success && <>Success</>}
         <div className="contact-form">
           <div className="contact-form-heading">
             <h1>SAY SOMETHING</h1>
@@ -60,7 +69,7 @@ const Contact = () => {
                 className="contact-form-message-input"
                 type="text"
                 name="Your Message"
-                placeholder="YourMessage"
+                placeholder="Your Message"
                 cols="40"
                 rows="5"
               ></textarea>
@@ -71,13 +80,15 @@ const Contact = () => {
                 type="submit"
                 name="Send"
                 value="Send"
+                onSubmit={() => validateForm()}
               />
             </div>
             <input
               type="hidden"
               name="_next"
-              value="https://akankshasoni024.github.io/blogpedia/contact"
+              value="http://localhost:3000/blogpedia/thankyou"
             />
+            <input type="hidden" name="_captcha" value="false" />
 
             <input type="hidden" name="_template" value="table" />
           </form>

@@ -1,7 +1,7 @@
 .weather-container {
   background-color: #050d22;
   color: white;
-  height: calc(100vh - 100px);
+  height: calc(100vh);
   margin: auto;
   /* padding: 3rem; */
 }
@@ -12,13 +12,10 @@
 }
 
 .weather-input-container {
-  margin: auto;
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 .weather-search-button {
-  padding: 5px;
 }
 
 .weather-output {
@@ -44,5 +41,5 @@
 }
 
 .weather-input-container input {
-width: 50%;
+  width: 50%;
 }

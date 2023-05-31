@@ -114,9 +114,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className="footer-copyright">
-        <p>copyright. All rights reserved</p>
-      </div>
+      <div className="footer-copyright">copyright. All rights reserved</div>
     </div>
   );
 };
