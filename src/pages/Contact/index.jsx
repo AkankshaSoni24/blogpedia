@@ -86,7 +86,7 @@ const Contact = () => {
             <input
               type="hidden"
               name="_next"
-              value="http://localhost:3000/blogpedia/thankyou"
+              value="https://akankshasoni024.github.io/blogpedia/thankyou"
             />
             <input type="hidden" name="_captcha" value="false" />
 
