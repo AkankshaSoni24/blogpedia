@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/blogpedia/static/css/main.cc291050.css",
+    "main.css": "/blogpedia/static/css/main.2100120d.css",
     "main.js": "/blogpedia/static/js/main.61f16984.js",
     "static/js/787.b8c49312.chunk.js": "/blogpedia/static/js/787.b8c49312.chunk.js",
     "static/media/aboutTopImg.png": "/blogpedia/static/media/aboutTopImg.59869badf16f8529e720.png",
@@ -12,12 +12,12 @@
     "index.html": "/blogpedia/index.html",
     "static/media/darkMailIcon.svg": "/blogpedia/static/media/darkMailIcon.31fb5795d3960970ea1cc41268a8c3ef.svg",
     "static/media/menuLinesIcon.svg": "/blogpedia/static/media/menuLinesIcon.57f0133e27eb8b2c49ae57a23630f334.svg",
-    "main.cc291050.css.map": "/blogpedia/static/css/main.cc291050.css.map",
+    "main.2100120d.css.map": "/blogpedia/static/css/main.2100120d.css.map",
     "main.61f16984.js.map": "/blogpedia/static/js/main.61f16984.js.map",
     "787.b8c49312.chunk.js.map": "/blogpedia/static/js/787.b8c49312.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc291050.css",
+    "static/css/main.2100120d.css",
     "static/js/main.61f16984.js"
   ]
 }
